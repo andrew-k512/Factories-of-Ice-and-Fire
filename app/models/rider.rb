@@ -2,7 +2,7 @@ class Rider < ApplicationRecord
 
   has_many :dragons
 
-  # validates :nickname, presence: true
+  validates :nickname, presence: true
   # validates :email, presence: true, uniqueness: true
 
   def swing
